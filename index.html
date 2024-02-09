@@ -26,14 +26,41 @@
         h1, h2 {
             color: #0056b3;
         }
+        .profile-section {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .profile-photo {
+            border-radius: 50%;
+            width: 100px; /* Adjust as needed */
+            height: 100px; /* Adjust as needed */
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .profile-info {
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>The Accessibility Of Cybersecurity</h1>
         <h2>Commercial Title</h2>
-        <p><strong>Name:</strong>Ethan Roche Woodward</p>
-        <p><strong>Student Number:</strong>20094256</p>
+        <div class="profile-section">
+            <img class="profile-photo" src="images/port.jpg" alt="Ethan Roche Woodward">
+            <div class="profile-info">
+                <h1>Ethan Roche Woodward</h1>
+                <p>Student Number: 20094256</p>
+            </div>
+
+        </div>
+
         <p><strong>Project Description:</strong> Here you will write your project description, summarizing your project in approximately 800 characters.</p>
         <img src="images/port.jpg" alt="Ethan Roche Woodward">
         <p><strong>Project Resources:</strong></p>
